@@ -593,7 +593,7 @@ class TitleState extends MusicBeatState
 				case 4:
 					deleteCoolText();
 				// credTextShit.visible = false;
-				// credTextShit.text = 'In association \nwith';
+				// credTextShit.text = 'In association nwith';
 				// credTextShit.screenCenter();
 				case 5:
 					#if PSYCH_WATERMARKS
@@ -604,7 +604,7 @@ class TitleState extends MusicBeatState
 				case 7:
 					addMoreText('newgrounds', -40);
 					ngSpr.visible = true;
-				// credTextShit.text += '\nNewgrounds';
+				// credTextShit.text += 'nNewgrounds';
 				case 8:
 					deleteCoolText();
 					ngSpr.visible = false;
@@ -617,7 +617,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.visible = true;
 				case 11:
 					addMoreText(curWacky[1]);
-				// credTextShit.text += '\nlmao';
+				// credTextShit.text += 'nlmao';
 				case 12:
 					deleteCoolText();
 				// credTextShit.visible = false;
@@ -628,9 +628,9 @@ class TitleState extends MusicBeatState
 				// credTextShit.visible = true;
 				case 14:
 					addMoreText('Vs');
-				// credTextShit.text += '\nNight';
+				// credTextShit.text += 'nNight';
 				case 15:
-					addMoreText('Corrupted File V2!'); // credTextShit.text += '\nFunkin';
+					addMoreText('Corrupted File V2!'); // credTextShit.text += 'nFunkin';
 
 				case 16:
 					skipIntro();
